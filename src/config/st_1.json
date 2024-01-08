@@ -1,0 +1,51 @@
+﻿{
+  "Plc": {
+    "Id": "st1",
+    "Ip": "192.168.1.10",
+    "Port": 8501
+  },
+  "Tags": [
+    {
+      "Id": "heart_beat",
+      "AddrName": "DM30010",
+      "Count": 1,
+      "Interval": -1,
+      "remark": "与plc的心跳处理"
+    },
+    {
+      "Id": "machine_state",
+      "AddrName": "MR1000",
+      "Count": 1000,
+      "Interval": -1,
+      "remark": "设备运行状态"
+    },
+    {
+      "Id": "dcb_top_trg",
+      "AddrName": "MR1000",
+      "Count": 1000,
+      "Interval": -1,
+      "remark": "dcb_top的扫码触发"
+    },
+    {
+      "Id": "dcb_top_code",
+      "AddrName": "MR1000",
+      "Count": 1000,
+      "Interval": -1,
+      "remark": "dcb_top的扫码结果"
+    },
+    {
+      "Id": "dcb_bot_trg",
+      "AddrName": "MR1000",
+      "Count": 1000,
+      "Interval": -1,
+      "remark": "dcb_bot的扫码触发"
+    },
+    {
+      "Id": "dcb_bot_code",
+      "AddrName": "MR1000",
+      "Count": 1000,
+      "Interval": -1,
+      "remark": "dcb_bot的扫码结果"
+    }
+  ]
+}
